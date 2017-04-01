@@ -5,4 +5,9 @@ Rails.application.routes.draw do
   resources :ideas
 
   root to: redirect("/ideas")
+
+  if Rails.env.development?
+		mount Localtower::Engine, at: "localtower"
+	end
+
 end

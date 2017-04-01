@@ -55,4 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # carrierwave pour l'upload d'images
 gem 'carrierwave'
 
+# show, edit and manage your app from a simple UI
+gem 'localtower'
 
